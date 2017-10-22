@@ -1,0 +1,188 @@
+body{
+    margin : 0;
+    padding : 0;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav{
+    background-color: #2A333C;
+    color : white;
+}
+
+/*init nav*/
+    #top-navbar{
+        font-weight: bold;
+        padding : 1%;
+    }
+    .clearfix:after{
+        content : "";
+        display:  block;
+        clear: both;
+    }
+    #top-navbar #nav-form{
+        float : right;
+    }
+    #top-navbar h3{
+        margin : 0;
+        font-size: 27px;
+        padding : 0;
+        display: inline-block;
+    }
+/*init nav*/
+
+/* init nav-left */
+#nav-left{
+    position: fixed;
+    height: 100%;
+    left : 0;
+    top : 0;
+    width:  0;
+    transition: width 1s;
+    overflow: hidden;
+}
+#nav-left span {
+    float : right;
+    font-size: 30px;
+    margin-right: 10px;
+}
+#nav-left ul {
+    padding : 5%;
+}
+#nav-left ul li {
+    margin-top : 10px;
+    font-size: 25px;
+}
+/* init nav-left */
+
+/* init container */
+#container {
+    min-width: 1000px;
+    transition: margin-left 1s;
+}
+/* init container */
+
+/* init not-nav */
+.not-nav{
+    margin : 1%;
+}
+/* init not-nav */
+
+/* init container-side */
+#container-side{
+   width: 25%;
+   float : left;
+   box-shadow: 3px 3px 4px rgba(0,0,0,0.3);
+}
+#container-side h3{
+    color : white;
+    margin : 0;
+    padding : 3%;
+    background-color: dodgerblue;
+}
+#container-side ul {
+    padding : 2%;
+}
+#container-side li{
+    font-size: 20px;
+    margin-bottom : 10px;
+}
+#container-side a{
+    text-decoration: none;
+    color : black;
+}
+/* init container-side */
+
+/* init container-main */
+#container-main{
+    overflow:hidden;
+    box-shadow: 3px 3px 4px rgba(0,0,0,0.3);
+}
+#container-main-content{
+    padding : 1%;
+}
+#container-main h3{
+    background-color: dodgerblue;
+    color : white;
+    padding : 1%;
+    margin : 0;
+}
+/* init container-main */
+
+/* init container-footer */
+#container-footer{
+    clear: both;
+    box-shadow: 3px 3px 4px rgba(0,0,0,0.3);
+    color : white;
+    text-align: center;
+    background-color: dodgerblue
+}
+#container-footer h3{
+    padding : 1%;
+}
+/* init container-footer */
+
+
+
+/* init content-main */
+#content-main-buy{
+    display :none;
+    padding : 0;
+    margin : 0;
+}
+#content-main-list{
+    display : none;
+    padding : 0;
+    margin : 0;
+}
+/* init content-main */
+
+/* init card-container */
+#card-container{
+    overflow: auto;
+    height: 500px;
+}
+.card{
+    display: inline-block;
+    width : 150px;
+    padding-bottom : 5px;
+    margin-bottom : 5px;
+    box-shadow: 3px 3px 4px rgba(0,0,0,0.3);
+    border-radius: 2px;
+}
+.card-img{
+    width: 100%;
+    height: 100px;
+    border-top-left-radius:  2px;
+    border-top-right-radius: 2px;
+}
+.card #card-buy {
+    border-radius: 5px;
+    background-color:dodgerblue;
+    color : white;
+    padding : 5%;
+    width : 50px;
+    margin-right: 10px;
+    float: right;
+    border : none;
+}
+.card #card-info{
+    border-radius: 5px;
+    width: 50px;
+    background-color:crimson;
+    color : white;
+    padding : 5%;
+    margin-right: 10px;
+    float: right;
+    border : none;
+}
+.card span{
+    margin-top : 10px;
+    display: block;
+    margin-left : 10px;
+    margin-bottom : 10px;
+}
+/* init card-container */
